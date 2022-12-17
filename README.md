@@ -4,6 +4,8 @@ freeCodeCamp projects starting from Responsive web design
 
 ## Demo-preview
 
+- [freeCodeCamp Projects](https://tarekelkanaria.github.io/freeCodeCamp-projects/)
+
 ## Author
 
 Tarek Elkanaria
