@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>freeCodeCamp Projects</title>
+    <style>
+      body {
+        background-color: #1b1b32;
+      }
+      .home-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+      .logo {
+        width: max(100px, 18vw);
+        background-color: #0a0a23;
+        aspect-ratio: 35 / 4;
+        padding: 0.4rem;
+      }
+      .title {
+        display: inline-block;
+        color: #dfdfe2;
+      }
+      .projects {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+      }
+      .project {
+        background-color: #0a0a23;
+        padding: 40px;
+        color: #dfdfe2;
+        border-radius: 5px;
+      }
+      .project:hover {
+        background-color: #3b3b4f;
+      }
+      .project:hover a {
+        background-color: #1b1b32;
+        color: #f1be32;
+      }
+      a {
+        text-decoration: none;
+        color: #f5f6f7;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="home-header">
+      <img
+        src="assets/fcc_primary_large.svg"
+        alt="freeCodeCamp logo"
+        class="logo"
+      />
+      <h1 class="title">freeCodeCamp Projects</h1>
+    </header>
+    <section class="projects">
+      <p class="project">
+        First Project : <a href="Survey Form/index.html">Survey Form</a>
+      </p>
+      <p class="project">
+        Second Project : <a href="Tribute Page/index.html">Tribute Page</a>
+      </p>
+    </section>
+  </body>
+</html>
