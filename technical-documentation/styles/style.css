@@ -116,12 +116,15 @@ code {
   color: #4d4e53;
   font-size: 1.6rem;
   width: 100%;
-  padding: 2rem 3rem;
+  padding: 2rem 3rem 2rem 0;
   border-top: 1px solid black;
 }
 @media (max-width: 839px) {
   #navbar ul {
     border: 1px solid;
     border-bottom: 2px solid;
+  }
+  .nav-link {
+    padding: 2rem 2rem;
   }
 }

@@ -2,6 +2,8 @@
 
 ## Demo-preview
 
+- [Technical Documentation](https://tarekelkanaria.github.io/freeCodeCamp-projects/technical-documentation/index.html)
+
 ## Description
 
 - Build a Technical Documentation Page for JS
