@@ -6,6 +6,12 @@ freeCodeCamp projects starting from Responsive web design
 
 - [freeCodeCamp Projects](https://tarekelkanaria.github.io/freeCodeCamp-projects/)
 
+## Table of contents
+
+- [x] Survey Form
+- [x] Tribute Page
+- [x] Technical Documentation
+
 ## Author
 
 Tarek Elkanaria
