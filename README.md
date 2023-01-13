@@ -11,6 +11,7 @@ freeCodeCamp projects starting from Responsive web design
 - [x] Survey Form
 - [x] Tribute Page
 - [x] Technical Documentation
+- [x] A Product Landing Page
 
 ## Author
 
