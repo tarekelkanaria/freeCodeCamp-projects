@@ -26,26 +26,56 @@
       }
       .projects {
         width: 80%;
+        margin: auto;
         display: flex;
         justify-content: space-around;
+        gap: 20px;
       }
       .project {
+        display: block;
         background-color: #0a0a23;
-        padding: 40px;
+        padding: 40px 10px;
+        font-size: 20px;
+        letter-spacing: 2px;
         color: #dfdfe2;
         border-radius: 5px;
+        max-width: 100%;
+        overflow: hidden;
+      }
+      .project p {
+        margin: 0;
       }
       .project:hover {
         background-color: #3b3b4f;
-      }
-      .project:hover a {
-        background-color: #1b1b32;
         color: #f1be32;
+      }
+      .project:hover p {
+        background-color: #1b1b32;
       }
       a {
         text-decoration: none;
         color: #f5f6f7;
-        padding: 5px;
+      }
+      @media(max-width: 575px){
+        .home-header{
+          flex-direction: column;
+        }
+        .projects{
+          width: 100%;
+        }
+        .project{
+          padding: 40px 5px;
+          text-align: center;
+        }
+        .project p {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+      }
+      @media(max-width:768px) {
+        .projects{
+          flex-direction: column;
+        }
       }
     </style>
   </head>
@@ -59,20 +89,22 @@
       <h1 class="title">freeCodeCamp Projects</h1>
     </header>
     <section class="projects">
-      <p class="project">
-        First Project : <a href="Survey Form/index.html">Survey Form</a>
-      </p>
-      <p class="project">
-        Second Project : <a href="Tribute Page/index.html">Tribute Page</a>
-      </p>
-      <p class="project">
-        Third Project :
-        <a href="technical-documentation/index.html">Technical Documentaion</a>
-      </p>
-      <p class="project">
-        Fourth Project :
-        <a href="product-landing-page/index.html">A Product Landing Page</a>
-      </p>
+    <a href="Survey Form/index.html" class="project">
+        <p>First Project : </p>
+        <p>Survey Form</p>
+    </a>
+    <a href="Tribute Page/index.html" class="project">
+      <p>Second Project : </p>
+        <p>Tribute Page</p>
+    </a>
+    <a href="technical-documentation/index.html" class="project">
+      <p>Third Project :</p>
+        <p>Technical Documentaion</p>
+    </a>
+    <a href="product-landing-page/index.html" class="project">
+      <p>Fourth Project : </p>
+       <p> A Product Landing Page</p>
+    </a>
     </section>
   </body>
 </html>
